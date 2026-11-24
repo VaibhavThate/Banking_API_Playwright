@@ -1,0 +1,25 @@
+# dependencies
+node_modules/
+
+# Playwright output
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# generated HTML summary + run history
+reports/
+
+# secrets / local settings (never commit real passwords)
+.env
+.env.*
+
+# Excel temporary lock files (created while the file is open in Excel)
+~$*
+*.tmp.xlsx
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
