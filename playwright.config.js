@@ -32,7 +32,7 @@ module.exports = defineConfig({
     // Updates the Excel file in the resources folder after every run
     ['./reporters/excel-reporter.js', { excelFile: 'resources/Banking_API_Test_Cases.xlsx' }],
     // Creates reports/API_Test_Execution_Summary.html (summary dashboard)
-    ['./Utils/Summary_report.js', {
+    ['./utils/summary-report.js', {
       title: 'Banking API Test Execution Summary',
       moduleName: 'Banking_API',
       sprint: 'Sprint 1',

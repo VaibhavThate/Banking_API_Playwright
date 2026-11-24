@@ -2,7 +2,7 @@ const { test, expect, request} = require('@playwright/test');
 const {
   ADMIN_TOKEN, VIEWER_TOKEN, LOGIN_USERNAME, LOGIN_PASSWORD,
   ENDPOINTS, bearer, expectUnauthorized, login,
-} = require('../Utils/Config');
+} = require('../utils/config');
 
 const hasLoginCreds = !!(LOGIN_USERNAME && LOGIN_PASSWORD);
 
@@ -228,6 +228,6 @@ test.describe("Accounts", () => {
         
     })
 
-    
+
     
 });
